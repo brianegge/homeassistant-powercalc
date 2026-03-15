@@ -19,7 +19,7 @@ Instructions for AI coding agents working on this project.
 ### Adding a new power profile
 
 1. Create `profile_library/<manufacturer>/manufacturer.json` if it doesn't exist
-2. Create `profile_library/<manufacturer>/<model>/model.json` — use only the model ID for the directory name (e.g., `MFP 3301` not `HP Color LaserJet Pro MFP 3301`). Add the full product name as an `aliases` entry in `model.json` to ensure discovery works.
+2. Create `profile_library/<manufacturer>/<model>/model.json` — use only the model ID for the directory name (e.g., `MFP 3301` not `HP Color LaserJet Pro MFP 3301`). Do not repeat the manufacturer name in the `name` field (e.g., `"name": "Color LaserJet Pro MFP 3301"` not `"name": "HP Color LaserJet Pro MFP 3301"`). Add the full product name as an `aliases` entry in `model.json` to ensure discovery works.
 3. Validate against `profile_library/model_schema.json`
 4. Use `author_info` (with required `name` and `github` fields), not the deprecated `author` field
 5. Required fields: `name`, `device_type`, `measure_method`, `measure_device`, `calculation_strategy`, `created_at` (ISO 8601 with Z suffix)
