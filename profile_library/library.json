@@ -8074,10 +8074,10 @@
           "max_power": 42.49,
           "sub_profile_count": 2,
           "color_modes": [
-            "color_temp",
-            "hsv"
+            "hsv",
+            "color_temp"
           ],
-          "hash": "3e464c0176ec662f83574fc0a53ed9a7"
+          "hash": "b251dc0be1a14126c86df718939fdab2"
         },
         {
           "aliases": [
@@ -8765,11 +8765,11 @@
           "max_power": 8.43,
           "sub_profile_count": 0,
           "color_modes": [
-            "color_temp",
             "effect",
+            "color_temp",
             "hs"
           ],
-          "hash": "6246abf31e5ae9a2baba8637d3bac312"
+          "hash": "95044b79d5af8c9f772224706e31a8fb"
         }
       ],
       "device_types": [
@@ -10322,10 +10322,10 @@
           "max_power": 26.1,
           "sub_profile_count": 2,
           "color_modes": [
-            "color_temp",
-            "brightness"
+            "brightness",
+            "color_temp"
           ],
-          "hash": "c5ca2ab9fef230d19eb19dbfdb6bbc98"
+          "hash": "a803a0424627baf0efcf5e7c682be4f8"
         },
         {
           "aliases": [
@@ -12908,10 +12908,10 @@
           "max_power": 12.91,
           "sub_profile_count": 0,
           "color_modes": [
-            "hs",
-            "brightness"
+            "brightness",
+            "hs"
           ],
-          "hash": "601aa03751c813e5be58a4bb7f7e6dc4"
+          "hash": "caf8dfd4b1c3b1fe7249fe105af3229a"
         },
         {
           "aliases": [
@@ -13095,11 +13095,11 @@
           "max_power": 10.65,
           "sub_profile_count": 0,
           "color_modes": [
+            "brightness",
             "color_temp",
-            "hs",
-            "brightness"
+            "hs"
           ],
-          "hash": "d052fc6af6651711424ee95027cd5ed0"
+          "hash": "21e279d64e6840a6f75b4f41fe8ce9c6"
         },
         {
           "author": "Daniel O'Connor <daniel.oconnor@gmail.com>",
@@ -14583,11 +14583,11 @@
           "max_power": 39.0,
           "sub_profile_count": 0,
           "color_modes": [
-            "color_temp",
             "effect",
+            "color_temp",
             "hs"
           ],
-          "hash": "9ee9d851f62f1483b14ca39f34cefe45"
+          "hash": "b558995e3b047c8d8c5921b74736b8f4"
         },
         {
           "calculation_strategy": "lut",
@@ -14614,11 +14614,11 @@
           "max_power": 20.4,
           "sub_profile_count": 0,
           "color_modes": [
-            "color_temp",
             "effect",
+            "color_temp",
             "hs"
           ],
-          "hash": "db0831d14b70b40bd36fea4b21d78f74"
+          "hash": "87712518a23226a5947ad8501a350aed"
         },
         {
           "author": "Brian Egge <brianegge@gmail.com>",
@@ -14825,11 +14825,11 @@
           "max_power": 36.45,
           "sub_profile_count": 0,
           "color_modes": [
-            "color_temp",
             "effect",
+            "color_temp",
             "hs"
           ],
-          "hash": "d83e25738b3ed996675dabf9b112c0be"
+          "hash": "c5f06f7ac36512536168a0f496155dfb"
         },
         {
           "author": "gobbli",
@@ -14855,11 +14855,11 @@
           "max_power": 23.35,
           "sub_profile_count": 0,
           "color_modes": [
-            "color_temp",
             "effect",
+            "color_temp",
             "hs"
           ],
-          "hash": "e51ce873f4958f34050c38778bb55322"
+          "hash": "5fd6bf12289b916338b4a7954940dfd9"
         },
         {
           "author": "Sku1ly <45756272+Sku1ly@users.noreply.github.com>",
@@ -14885,11 +14885,11 @@
           "max_power": 23.14,
           "sub_profile_count": 0,
           "color_modes": [
+            "brightness",
             "color_temp",
-            "hs",
-            "brightness"
+            "hs"
           ],
-          "hash": "122422e9e192228b497e67739887f350"
+          "hash": "7a39dbf6da62530b8a004e954f9cfc8d"
         },
         {
           "author": "sockmonkey0223 <joshua.oswald@gmail.com>",
@@ -16837,11 +16837,11 @@
           "max_power": 9.57,
           "sub_profile_count": 0,
           "color_modes": [
+            "brightness",
             "color_temp",
-            "hs",
-            "brightness"
+            "hs"
           ],
-          "hash": "093a10a8ca4d44b9fe81dccd4c7ad99d"
+          "hash": "ed8c6f8ad83348d686cdce499f97ea56"
         }
       ],
       "device_types": [
@@ -20174,16 +20174,21 @@
           },
           "name": "Livarno Lux Ceiling Panel RGB+CCT",
           "standby_power": 0.2,
+          "author_info": {
+            "name": "rammstone83",
+            "github": "rammstone83"
+          },
+          "author": "rammstone83",
           "id": "399629_2110",
           "manufacturer": "lidl",
-          "updated_at": "2026-03-20T08:22:10",
+          "updated_at": "2026-03-20T08:22:33",
           "max_power": 36.95,
           "sub_profile_count": 0,
           "color_modes": [
             "color_temp",
             "hs"
           ],
-          "hash": "3c8def8443cd538f88b9cc1864b111bd"
+          "hash": "dad29f29a504fea8243092d7ba54b288"
         },
         {
           "author": "vyruz1986 <alex.goris@fastlikehell.com>",
