@@ -11378,10 +11378,10 @@
           "max_power": 42.49,
           "sub_profile_count": 2,
           "color_modes": [
-            "hsv",
-            "color_temp"
+            "color_temp",
+            "hsv"
           ],
-          "hash": "9d1982351c156dc4410c730b85fd510e"
+          "hash": "588f2b004db57a238645d53eb907732d"
         },
         {
           "aliases": [
